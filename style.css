@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+}
+.grid{
+    display: grid;
+    grid-template-columns: 20% 80%;
+}
+.sidebar{
+    background-color: #0ea5e9;
+    height: 100vh;
+    color: white;
+}
+.logo-text{
+    display: flex;
+    flex-direction: row;
+    /* justify-content: center; */
+    align-items: center;
+    margin: 40px 30px;
+}
+.logo-text h1{
+    margin-left: 10px;
+}
+.list-items-bottom{
+    margin-top: 60px;
+}
+.icon-text{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    margin: 25px 40px;
+}
+.icon-text p{
+    margin-left: 20px;
+    font-size: 20px;
+    font-weight: 700;
+}
+.main{
+    background-color: white;
+    height: 100vh;
+    display: grid;
+    grid-template-rows: 20% 80%;
+}
+.header{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+}
+.navbar{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 20px 40px;
+    font-weight: 700;
+}
+.navbar-input{
+    width: 900px;
+    background-color: lightgray;
+    border: none;
+    border-radius: 15px;
+    height: 30px;
+    margin-left: 20px;
+    margin-right: 200px;
+}
+.navbar-ring{
+    margin-right: 0 30px;
+}
+.navbar-avatar{
+    margin: 0 30px;
+}
+.navbar-name{
+    margin: 0 40px;
+}
+.welcome{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin: 5px 20px;
+}
+.left{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 5px 20px;
+}
+.left-avatar{
+    margin-right: 20px;
+}
+.left-text-top{
+    font-size: 12px;
+    font-weight: 800;
+}
+.left-text-bottom{
+    font-size: 20px;
+    font-weight: 900;
+}
+.right{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 30%;
+    margin-right: 60px;
+}
+.btn{
+    width: 120px;
+    height: 40px;
+    background-color: #32a6db;
+    border: none;
+    border-radius: 20px;
+    color: white;
+    font-weight: 700;
+    font-size: 15px;
+}
+.content{
+    background-color: #d4d4d4;
+    display: grid;
+    grid-template-columns: 70% 30%;
+}
+.cards{
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
