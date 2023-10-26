@@ -124,7 +124,96 @@ body{
     display: grid;
     grid-template-columns: 70% 30%;
 }
+h4{
+    margin: 20px 0 0 30px;
+    font-size: 18px;
+}
 .cards{
     display: grid;
     grid-template-columns: 50% 50%;
+}
+.card{
+    background-color: white;
+    border-left: 7px solid #facc15;
+    border-radius: 10px;
+    width: 80%;
+    height: 195px;
+    margin: 20px 0 20px 20px;
+    padding: 10px 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.card h5{
+    font-weight: 900;
+    font-size: large;
+    margin-bottom: 10px;
+}
+.card p{
+    color: grey;
+}
+.icons{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    width: 100%;
+}
+.icons-icon{
+    margin: 30px 10px 0 10px;
+}
+.ann h4, .trend h4{
+    margin: 20px 0 0 0px;
+    font-size: 20px;
+}
+.ann-trend{
+    display: grid;
+    grid-template-rows: 50% 50%;
+}
+.ann-card{
+    height: 80%;
+    width: 80%;
+    background-color: white;
+    margin-top: 10px;
+    border-radius: 12px;
+    padding-top: 15px;
+}
+.trend-card{
+    height: 70%;
+    width: 70%;
+    background-color: white;
+    margin-top: 10px;
+    padding: 16px 24px;
+    border-radius: 10px;
+}
+.divider{
+    border: 1px solid lightgray;
+    margin: 0 50px;
+}
+.ann-text{
+    padding: 10px 0 10px 55px;
+}
+.ann-text h6{
+    font-size: 15px;
+}
+.ann-text p{
+    font-size: 12px;
+    color: gray;
+    margin: 5px 0;
+}
+.trend-text-image{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 15px;
+}
+.trend-text{
+    margin-left: 25px;
+}
+.trend-text h6{
+    font-size: 15px;
+}
+.trend-text p{
+    font-size: 15px;
+    color: gray;
 }
